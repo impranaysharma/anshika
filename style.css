@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+}
+#hbday {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cursive;
+}
+.gif{
+    height: 200px;
+    width: 200px;
+    
+}
+#gif1{
+    margin-left: 100px;
+}
+#gif2{
+    margin-right: 100px;
+    margin-left: 900px;
+}
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 60px;
+  }
+  .waviy span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
