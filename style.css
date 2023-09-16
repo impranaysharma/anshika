@@ -51,13 +51,28 @@ body {
   #pic1 {
     height: 500px;
     width: 250px;
-    margin-left: 350px;
+    margin-left: -50px;
   }
   #pic2{
     position: absolute;
-    margin-left: px;
+    margin-left: 500px;
     float: right;
-    height: 500px;
-    width: 250px;
+    height: 600px;
+    width: 300px;
 
+  }
+  #gif3
+  {position: absolute;
+    object-fit: cover;
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 90px;
+  }
+  #aud{
+    border:10px solid lightsalmon;
+              border-radius: 50px;
+              margin-top: 500px;
+              margin-left: 100px;
   }
