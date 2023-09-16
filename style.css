@@ -53,3 +53,11 @@ body {
     width: 250px;
     margin-left: 350px;
   }
+  #pic2{
+    position: absolute;
+    margin-left: px;
+    float: right;
+    height: 500px;
+    width: 250px;
+
+  }
