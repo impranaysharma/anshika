@@ -15,12 +15,15 @@ body {
     width: 200px;
     
 }
-#gif1{
+#gif1{position: relative;
+    float: left;
     margin-left: 100px;
 }
 #gif2{
+    position: relative;
+    float: right;
     margin-right: 100px;
-    margin-left: 900px;
+    
 }
 .waviy {
     position: relative;
@@ -44,4 +47,9 @@ body {
     20% {
       transform: translateY(-20px)
     }
+  }
+  #pic1 {
+    height: 500px;
+    width: 250px;
+    margin-left: 350px;
   }
