@@ -50,15 +50,15 @@ body {
   }
   #pic1 {
     height: 500px;
-    width: 250px;
+    width: 300px;
     margin-left: -50px;
   }
   #pic2{
     position: absolute;
-    margin-left: 500px;
+    margin-left: 400px;
     float: right;
     height: 600px;
-    width: 300px;
+    width: 350px;
 
   }
   #gif3
